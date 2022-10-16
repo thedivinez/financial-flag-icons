@@ -1,7 +1,7 @@
 {
   "name": "financial-flag-icons",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Divine Zvenyika",
@@ -49,6 +49,7 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "babel-loader": "^8.2.5",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.17",
     "prettier": "^2.7.1",
     "react": "^18.2.0",

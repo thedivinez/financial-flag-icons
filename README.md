@@ -14,15 +14,37 @@ A lightweight react library to show currency pairs as flags. And it comes with f
 
 and more are to be added
 
-#### Usage
+ ![GBPUSD!](/assets/icons.png 'GBPUSD')
+
+You can change the size and background color of each icon using **className** or using **style**
+
+#### Example
+<h6>./style.css</h6>
+
+```css
+.h-1 {
+  height: 1rem;
+}
+.w-1 {
+  width: 1rem;
+}
+```
+<h6>App.tsx</h6>
 
 ```tsx
+
+//icon: string  pair id
+//className: string  css styling class
+
+import "./style.css";
 import FinancialFlagIcon from financial-flag-icons
 
-icon: string // pair id
-className: string // css styling class
+const App = () => <FinancialFlagIcon icon="gbpusd" className="h-1 w-1" style={{}}/>;
 
-<FinancialFlagIcon icon="gbpusd" className="h-1 w-1" style={{}}/>
+export default App;
+
 ```
 
-This component can be styled using **className** or using **style**
+<h6>Result</h6>
+
+![GBPUSD!](/assets/gbpaud.svg 'GBPUSD')
