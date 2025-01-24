@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const BCHUSD = ({ ...props }) => (
+const BCHUSD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 39 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <g clipPath="url(#bchusd_svg__a)">
             <path d="M13.025 26.05c7.193 0 13.025-5.832 13.025-13.025C26.05 5.831 20.218 0 13.025 0 5.831 0 0 5.831 0 13.025 0 20.218 5.831 26.05 13.025 26.05Z" fill="#8DC351" />

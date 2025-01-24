@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const Spot = ({ ...props }) => (
+const Spot: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <g clipPath="url(#spot_svg__a)">
             <path fillRule="evenodd" clipRule="evenodd" d="M13.994.882C6.614.882.631 6.895.631 14.312s5.983 13.43 13.363 13.43 13.363-6.013 13.363-13.43S21.374.882 13.994.882Z" fill="#3D3E3C" />

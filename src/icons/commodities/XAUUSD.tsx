@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const USDXAU = ({ ...props }) => (
+const XAUUSD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 39 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M13.217 26.201c7.194 0 13.025-5.831 13.025-13.025S20.411.15 13.217.15.19 5.982.19 13.176 6.023 26.2 13.217 26.2Z" fill="#F0F0F0" />
         <path
@@ -44,4 +45,4 @@ const USDXAU = ({ ...props }) => (
     </svg>
 );
 
-export default USDXAU;
+export default XAUUSD;

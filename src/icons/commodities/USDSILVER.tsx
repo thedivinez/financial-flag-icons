@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const USDSILVER = ({ ...props }) => (
+const USDSILVER: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M13.656 26.193c7.194 0 13.026-5.832 13.026-13.026C26.682 5.975 20.85.143 13.656.143 6.463.142.631 5.974.631 13.168c0 7.193 5.832 13.025 13.025 13.025Z" fill="#F0F0F0" />
         <path

@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const NZDCAD = ({ ...props }) => (
+const NZDCAD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 41 43" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <circle cx={14.33} cy={14.33} r={13.83} stroke="#fff" />
         <mask

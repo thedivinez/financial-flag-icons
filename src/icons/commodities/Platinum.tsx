@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const Platinum = ({ ...props }) => (
+const Platinum: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <g clipPath="url(#platinum_svg__a)" fillRule="evenodd" clipRule="evenodd">
             <path d="M13.655.915C6.498.915.695 6.746.695 13.94c0 7.193 5.803 13.025 12.96 13.025 7.158 0 12.96-5.832 12.96-13.025 0-7.194-5.802-13.025-12.96-13.025Z" fill="#596277" />

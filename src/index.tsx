@@ -1,6 +1,6 @@
 import React from 'react';
 import Spot from './icons/commodities/Spot';
-import USDXAU from './icons/commodities/USDXAU';
+import XAUUSD from './icons/commodities/XAUUSD';
 import Platinum from './icons/commodities/Platinum';
 import USDSILVER from './icons/commodities/USDSILVER';
 import ADAUSD from './icons/crypto/ADAUSD';
@@ -56,72 +56,78 @@ import USDSEK from './icons/forex/USDSEK';
 import USDSGD from './icons/forex/USDSGD';
 import USDTRY from './icons/forex/USDTRY';
 import USDZAR from './icons/forex/USDZAR';
+import { IconProps } from './icons/types/types';
 
-export interface Props { icon: string; className?: string; style?: React.CSSProperties };
-const FinancialFlagIcon: React.FC<Props> = ({ icon, className, style }) => {
-    const icons = [
-        { id: 'audcad', icon: <AUDCAD className={className} style={style} /> },
-        { id: 'audchf', icon: <AUDCHF className={className} style={style} /> },
-        { id: 'audjpy', icon: <AUDJPY className={className} style={style} /> },
-        { id: 'audnzd', icon: <AUDNZD className={className} style={style} /> },
-        { id: 'audusd', icon: <AUDUSD className={className} style={style} /> },
-        { id: 'cadchf', icon: <CADCHF className={className} style={style} /> },
-        { id: 'cadjpy', icon: <CADJPY className={className} style={style} /> },
-        { id: 'chfjpy', icon: <CHFJPY className={className} style={style} /> },
-        { id: 'euraud', icon: <EURAUD className={className} style={style} /> },
-        { id: 'eurcad', icon: <EURCAD className={className} style={style} /> },
-        { id: 'eurchf', icon: <EURCHF className={className} style={style} /> },
-        { id: 'eurdkk', icon: <EURDKK className={className} style={style} /> },
-        { id: 'eurgbp', icon: <EURGBP className={className} style={style} /> },
-        { id: 'eurhuf', icon: <EURHUF className={className} style={style} /> },
-        { id: 'eurjpy', icon: <EURJPY className={className} style={style} /> },
-        { id: 'eurnok', icon: <EURNOK className={className} style={style} /> },
-        { id: 'eurnzd', icon: <EURNZD className={className} style={style} /> },
-        { id: 'eurpln', icon: <EURPLN className={className} style={style} /> },
-        { id: 'eurtry', icon: <EURTRY className={className} style={style} /> },
-        { id: 'eurusd', icon: <EURUSD className={className} style={style} /> },
-        { id: 'gbpaud', icon: <GBPAUD className={className} style={style} /> },
-        { id: 'gbpcad', icon: <GBPCAD className={className} style={style} /> },
-        { id: 'gbpchf', icon: <GBPCHF className={className} style={style} /> },
-        { id: 'gbpjpy', icon: <GBPJPY className={className} style={style} /> },
-        { id: 'gbpnzd', icon: <GBPNZD className={className} style={style} /> },
-        { id: 'gbpusd', icon: <GBPUSD className={className} style={style} /> },
-        { id: 'nzdcad', icon: <NZDCAD className={className} style={style} /> },
-        { id: 'nzdchf', icon: <NZDCHF className={className} style={style} /> },
-        { id: 'nzdjpy', icon: <NZDJPY className={className} style={style} /> },
-        { id: 'nzdusd', icon: <NZDUSD className={className} style={style} /> },
-        { id: 'sgdjpy', icon: <SGDJPY className={className} style={style} /> },
-        { id: 'usdcad', icon: <USDCAD className={className} style={style} /> },
-        { id: 'usdchf', icon: <USDCHF className={className} style={style} /> },
-        { id: 'usddkk', icon: <USDDKK className={className} style={style} /> },
-        { id: 'usdhkd', icon: <USDHKD className={className} style={style} /> },
-        { id: 'usdhuf', icon: <USDHUF className={className} style={style} /> },
-        { id: 'usdjpy', icon: <USDJPY className={className} style={style} /> },
-        { id: 'usdmxn', icon: <USDMXN className={className} style={style} /> },
-        { id: 'usdpln', icon: <USDPLN className={className} style={style} /> },
-        { id: 'usdsek', icon: <USDSEK className={className} style={style} /> },
-        { id: 'usdsgd', icon: <USDSGD className={className} style={style} /> },
-        { id: 'usdtry', icon: <USDTRY className={className} style={style} /> },
-        { id: 'usdzar', icon: <USDZAR className={className} style={style} /> },
-        // ========= End Of Forex Pairs =========
-        { id: 'adausd', icon: <ADAUSD className={className} style={style} /> },
-        { id: 'bchusd', icon: <BCHUSD className={className} style={style} /> },
-        { id: 'btcusd', icon: <BTCUSD className={className} style={style} /> },
-        { id: 'dotusd', icon: <DOTUSD className={className} style={style} /> },
-        { id: 'dshusd', icon: <DSHUSD className={className} style={style} /> },
-        { id: 'ethusd', icon: <ETHUSD className={className} style={style} /> },
-        { id: 'ltcusd', icon: <LTCUSD className={className} style={style} /> },
-        { id: 'xlmusd', icon: <XLMUSD className={className} style={style} /> },
-        { id: 'xrmusd', icon: <XRMUSD className={className} style={style} /> },
-        { id: 'xrpusd', icon: <XRPUSD className={className} style={style} /> },
-        // ========= End Of Crypto Pairs =========
-        { id: 'platinum', icon: <Platinum className={className} style={style} /> },
-        { id: 'spot', icon: <Spot className={className} style={style} /> },
-        { id: 'usdsilver', icon: <USDSILVER className={className} style={style} /> },
-        { id: 'usdxau', icon: <USDXAU className={className} style={style} /> }
-    ];
-    const iconIndex = icons.findIndex((iconTarget) => iconTarget.id === icon);
-    return iconIndex >= 0 ? icons[iconIndex].icon : <>Icon Not Found</>;
-};
+const icons: { [key: string]: React.FC<IconProps> } = {
+    'audcad': AUDCAD,
+    'audchf': AUDCHF,
+    'audjpy': AUDJPY,
+    'audnzd': AUDNZD,
+    'audusd': AUDUSD,
+    'cadchf': CADCHF,
+    'cadjpy': CADJPY,
+    'chfjpy': CHFJPY,
+    'euraud': EURAUD,
+    'eurcad': EURCAD,
+    'eurchf': EURCHF,
+    'eurdkk': EURDKK,
+    'eurgbp': EURGBP,
+    'eurhuf': EURHUF,
+    'eurjpy': EURJPY,
+    'eurnok': EURNOK,
+    'eurnzd': EURNZD,
+    'eurpln': EURPLN,
+    'eurtry': EURTRY,
+    'eurusd': EURUSD,
+    'gbpaud': GBPAUD,
+    'gbpcad': GBPCAD,
+    'gbpchf': GBPCHF,
+    'gbpjpy': GBPJPY,
+    'gbpnzd': GBPNZD,
+    'gbpusd': GBPUSD,
+    'nzdcad': NZDCAD,
+    'nzdchf': NZDCHF,
+    'nzdjpy': NZDJPY,
+    'nzdusd': NZDUSD,
+    'sgdjpy': SGDJPY,
+    'usdcad': USDCAD,
+    'usdchf': USDCHF,
+    'usddkk': USDDKK,
+    'usdhkd': USDHKD,
+    'usdhuf': USDHUF,
+    'usdjpy': USDJPY,
+    'usdmxn': USDMXN,
+    'usdpln': USDPLN,
+    'usdsek': USDSEK,
+    'usdsgd': USDSGD,
+    'usdtry': USDTRY,
+    'usdzar': USDZAR,
+    // ========= End Of Forex Pairs =========
+    'adausd': ADAUSD,
+    'bchusd': BCHUSD,
+    'btcusd': BTCUSD,
+    'dotusd': DOTUSD,
+    'dshusd': DSHUSD,
+    'ethusd': ETHUSD,
+    'ltcusd': LTCUSD,
+    'xlmusd': XLMUSD,
+    'xrmusd': XRMUSD,
+    'xrpusd': XRPUSD,
+    // ========= End Of Crypto Pairs =========
+    'platinum': Platinum,
+    'spot': Spot,
+    'usdsilver': USDSILVER, 'xauusd': XAUUSD
+}
+
+export interface Props {
+    icon: keyof typeof icons;
+    className?: string;
+    style?: React.CSSProperties;
+}
+
+const FinancialFlagIcon: React.FC<Props> = props => {
+    const IconComponent = icons[props.icon]
+    return IconComponent ? <IconComponent className={props.className} style={props.style} /> : null;
+}
 
 export default FinancialFlagIcon;

@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const AUDNZD = ({ ...props }) => (
+const AUDNZD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M13.332 0v26.663c7.363 0 13.332-5.969 13.332-13.331C26.664 5.968 20.695 0 13.332 0Z" fill="#252F6B" />
         <path d="M13.331 0C5.97 0 0 5.968 0 13.331c0 7.363 5.969 13.332 13.331 13.332 7.363 0 7.363-26.663 0-26.663Z" fill="#273375" />

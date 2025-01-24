@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const CADJPY = ({ ...props }) => (
+const CADJPY: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 38 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <circle cx={13.346} cy={13.34} fill="#fff" r={13.34} />
         <path d="M13.34 26.68c7.367 0 13.34-5.972 13.34-13.34C26.68 5.973 20.707 0 13.34 0S0 5.973 0 13.34c0 7.368 5.973 13.34 13.34 13.34Z" fill="#F0F0F0" />

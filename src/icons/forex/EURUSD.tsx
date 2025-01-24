@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const EURUSD = ({ ...props }) => (
+const EURUSD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 39 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M13.215.596v26.05c7.194 0 13.026-5.83 13.026-13.024C26.24 6.427 20.409.596 13.215.596Z" fill="#214391" />
         <path d="M13.213.596C6.019.596.188 6.428.188 13.622c0 7.193 5.831 13.025 13.025 13.025s7.194-26.05 0-26.05Z" fill="#2B479D" />

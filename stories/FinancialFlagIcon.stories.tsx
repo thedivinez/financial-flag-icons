@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
-import FinancialFlagIcon from '../dist';
-import { Meta, Story } from '@storybook/react';
+import FinancialFlagIcon from '../src';
+import { Meta, StoryFn } from '@storybook/react';
 
 const meta: Meta = {
   title: 'Financial Flag Icon',
@@ -33,10 +33,7 @@ const meta: Meta = {
 export default meta;
 
 export interface Props { icon: string; className?: string; style?: React.CSSProperties };
-const Template: Story<Props> = args => <FinancialFlagIcon {...args} />;
+const Template: StoryFn<Props> = args => <FinancialFlagIcon {...args} />;
 export const Default = Template.bind({});
 
-Default.args = {
-  icon: "xrpusd",
-  className: "h-2 w-2"
-};
+Default.args = { icon: "audcad", className: "h-2 w-2" };

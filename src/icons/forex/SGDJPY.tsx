@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const SGDJPY = ({ ...props }) => (
+const SGDJPY: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 39 42" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <mask
             id="sgdjpy_svg__a"

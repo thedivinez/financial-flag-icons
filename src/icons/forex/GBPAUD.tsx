@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const GBPAUD = ({ ...props }) => (
+const GBPAUD: React.FC<IconProps> = (props) => (
     <svg fill="none" viewBox="0 0 40 42" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path
             d="M2.295 5.645A12.968 12.968 0 0 0 .43 9.704h5.924l-4.059-4.06ZM9.378.521c-1.5.437-2.89 1.135-4.114 2.044L9.378 6.68V.521ZM5.568 23.701a12.957 12.957 0 0 0 3.809 1.827v-5.634L5.568 23.7ZM.578 16.87c.43 1.395 1.09 2.69 1.934 3.84l3.84-3.84H.578Z"

@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const CHFJPY = ({ ...props }) => (
+const CHFJPY: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 38 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <circle cx={13.346} cy={13.505} fill="#fff" r={13.34} />
         <path d="M13.34 26.845c7.367 0 13.34-5.973 13.34-13.34 0-7.368-5.973-13.34-13.34-13.34S0 6.137 0 13.505c0 7.367 5.973 13.34 13.34 13.34Z" fill="#F0F0F0" />

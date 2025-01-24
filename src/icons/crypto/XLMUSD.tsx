@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const XLMUSD = ({ ...props }) => (
+const XLMUSD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 45 47" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M29.307 29.307c5.396-5.395 5.396-14.143 0-19.538-5.395-5.395-14.143-5.395-19.538 0s-5.395 14.143 0 19.538c5.395 5.396 14.143 5.396 19.538 0Z" fill="#1451A5" />
         <path

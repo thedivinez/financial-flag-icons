@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const BTCUSD = ({ ...props }) => (
+const BTCUSD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 40 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M13.816 28.354c7.63 0 13.815-6.186 13.815-13.816 0-7.63-6.185-13.815-13.815-13.815S0 6.908 0 14.538s6.185 13.816 13.816 13.816Z" fill="#F7931A" />
         <path

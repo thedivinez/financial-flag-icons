@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const XRMUSD = ({ ...props }) => (
+const XRMUSD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 39 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M27.66 13.829c0 7.637-6.192 13.828-13.83 13.828C6.19 27.657 0 21.466 0 13.83S6.191 0 13.83 0c7.638 0 13.83 6.19 13.83 13.829Z" fill="#fff" />
         <path

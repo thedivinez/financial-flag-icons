@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const USDJPY = ({ ...props }) => (
+const USDJPY: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M14.002 26.398c7.193 0 13.025-5.832 13.025-13.025 0-7.194-5.832-13.025-13.025-13.025C6.808.348.977 6.179.977 13.373c0 7.193 5.831 13.025 13.025 13.025Z" fill="#F0F0F0" />
         <path

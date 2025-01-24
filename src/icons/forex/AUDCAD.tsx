@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../types/types';
 
-const AUDCAD = ({ ...props }) => (
+const AUDCAD: React.FC<IconProps> = (props) => (
     <svg viewBox="0 0 38 41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" {...props}>
         <path d="M13.332.615v26.663c7.363 0 13.332-5.969 13.332-13.331 0-7.364-5.969-13.332-13.332-13.332Z" fill="#252F6B" />
         <path d="M13.331.615C5.97.615 0 6.584 0 13.947c0 7.362 5.969 13.33 13.331 13.33 7.363 0 7.363-26.662 0-26.662Z" fill="#273375" />
