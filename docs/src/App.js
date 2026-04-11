@@ -3,62 +3,62 @@ import FinancialFlagIcon from "financial-flag-icons";
 
 // ── Icon registry ────────────────────────────────────────────────────────────
 const FOREX = [
-  'audcad','audchf','audjpy','audnzd','audusd','cadchf','cadjpy','chfjpy',
-  'euraud','eurcad','eurchf','eurdkk','eurgbp','eurhuf','eurjpy','eurnok',
-  'eurnzd','eurpln','eurtry','eurusd','gbpaud','gbpcad','gbpchf','gbpjpy',
-  'gbpnzd','gbpusd','nzdcad','nzdchf','nzdjpy','nzdusd','sgdjpy','usdcad',
-  'usdchf','usddkk','usdhkd','usdhuf','usdjpy','usdmxn','usdpln','usdsek',
-  'usdsgd','usdtry','usdzar',
+  'audcad', 'audchf', 'audjpy', 'audnzd', 'audusd', 'cadchf', 'cadjpy', 'chfjpy',
+  'euraud', 'eurcad', 'eurchf', 'eurdkk', 'eurgbp', 'eurhuf', 'eurjpy', 'eurnok',
+  'eurnzd', 'eurpln', 'eurtry', 'eurusd', 'gbpaud', 'gbpcad', 'gbpchf', 'gbpjpy',
+  'gbpnzd', 'gbpusd', 'nzdcad', 'nzdchf', 'nzdjpy', 'nzdusd', 'sgdjpy', 'usdcad',
+  'usdchf', 'usddkk', 'usdhkd', 'usdhuf', 'usdjpy', 'usdmxn', 'usdpln', 'usdsek',
+  'usdsgd', 'usdtry', 'usdzar',
 ];
 
 const CRYPTO_LEGACY = [
-  'adausd','bchusd','btcusd','dotusd','dshusd','ethusd','ltcusd','xlmusd','xrmusd','xrpusd',
+  'adausd', 'bchusd', 'btcusd', 'dotusd', 'dshusd', 'ethusd', 'ltcusd', 'xlmusd', 'xrmusd', 'xrpusd',
 ];
 
 const COINS = [
-  '1inch','1inchbsc','aave','ada','ae','aitech','algo','apeerc20','apt','arb',
-  'ark','arpaerc20','arv','atom','ava','avabsc','avaerc20','avax','avn','axs',
-  'babydoge','banana','bat','bazed','bcd','bch','beam','befi','belerc20',
-  'bifibsc','blocks','bnbbsc','boba','bone','brett','brgbsc','brisebsc',
-  'brisemainnet','bsv','btc','btfa','btg','bttbsc','bttc','btttrc20','busd',
-  'c98','cake','cati','catston','cfxbsc','cgpt','cgptbsc','chr','chz','cns',
-  'coti','cro','cspr','cswap','ctsi','cudoserc20','cult','cvc','daddy','dai',
-  'dao','dash','dcr','dgb','dgd','dgi','dgmoon','dino','divi','doge',
-  'dogecoin','dogs','dot','egld','enj','eos','epic','etc','eth','etharb',
-  'ethbsc','ethw','eurt','feg','filmainnet','firo','fitfiarc20','floki',
-  'flokibsc','flufbsc','front','ftm','ftn','ftt','fun','gafabsc','gala',
-  'galbsc','gari','gas','gbsc','gerc20','geth','ggtkn','ghc','grapecoin',
-  'grs','grterc20','gspi','gterc20','guardbsc','gusd','hbar','hex','hmstr',
-  'hoge','hot','hotcross','ht','icx','ilv','inj','iotx','ipmb','jasmy',
-  'jetton','jst','kas','keanu','kiba','kibabsc','kishu','klay','klv','kmd',
-  'knc','lbp','leash','lgcy','link','lnq','lsk','ltc','luna','lunc','mana',
-  'marsh','matic','maticmainnet','maticusdce','mco','mew','miota','mx','myro',
-  'near','neiroerc20','neo','never','nfai','nftb','not','now','npxs','ntvrk',
-  'nwc','ocean','okb','om','omg','one','onigierc20','ont','peipei','peng',
-  'pew','pikaeth','pit','pivx','pls','plx','ponke','poodl','poolx','poolz',
-  'pyusd','qtum','quackbsc','raca','raincoin','rbif','rep','rjvbsc','rjverc20',
-  'rune','rvn','rxcg','sand','scrat','scrt','sei','sfundbsc','shib','shibbsc',
-  'sidus','snsy','sol','soon','id','spi','srk','stkk','stpt','strax','strk',
-  'sun','sundog','super','sxp','sysevm','tenshi','tet','tfuel','theta','tko',
-  'tlos','tomoerc20','ton','trvl','trx','ttcbsc','tup','tusd','tusdtrc20',
-  'uni','usdc','usdcmatic','usdcsol','usddtrc20','usde','usdj','usdp','usdt',
-  'usdtbsc','usdterc20','usdtmatic','usdtsol','usdttrc20','ust','velo','verse',
-  'vet','vib','volt','vpsai','wabi','waves','wbtcmatic','win','wolf','x',
-  'xaut','xcaderc20','xcur','xdc','xec','xem','xlm','xmr','xno','xrp','xtz',
-  'xvg','xym','xyoerc20','xzc','yfi','zbcsol','zec','zen','zent','zil','zk',
-  'zroarb','zroerc',
+  '1inch', '1inchbsc', 'aave', 'ada', 'ae', 'aitech', 'algo', 'apeerc20', 'apt', 'arb',
+  'ark', 'arpaerc20', 'arv', 'atom', 'ava', 'avabsc', 'avaerc20', 'avax', 'avn', 'axs',
+  'babydoge', 'banana', 'bat', 'bazed', 'bcd', 'bch', 'beam', 'befi', 'belerc20',
+  'bifibsc', 'blocks', 'bnbbsc', 'boba', 'bone', 'brett', 'brgbsc', 'brisebsc',
+  'brisemainnet', 'bsv', 'btc', 'btfa', 'btg', 'bttbsc', 'bttc', 'btttrc20', 'busd',
+  'c98', 'cake', 'cati', 'catston', 'cfxbsc', 'cgpt', 'cgptbsc', 'chr', 'chz', 'cns',
+  'coti', 'cro', 'cspr', 'cswap', 'ctsi', 'cudoserc20', 'cult', 'cvc', 'daddy', 'dai',
+  'dao', 'dash', 'dcr', 'dgb', 'dgd', 'dgi', 'dgmoon', 'dino', 'divi', 'doge',
+  'dogecoin', 'dogs', 'dot', 'egld', 'enj', 'eos', 'epic', 'etc', 'eth', 'etharb',
+  'ethbsc', 'ethw', 'eurt', 'feg', 'filmainnet', 'firo', 'fitfiarc20', 'floki',
+  'flokibsc', 'flufbsc', 'front', 'ftm', 'ftn', 'ftt', 'fun', 'gafabsc', 'gala',
+  'galbsc', 'gari', 'gas', 'gbsc', 'gerc20', 'geth', 'ggtkn', 'ghc', 'grapecoin',
+  'grs', 'grterc20', 'gspi', 'gterc20', 'guardbsc', 'gusd', 'hbar', 'hex', 'hmstr',
+  'hoge', 'hot', 'hotcross', 'ht', 'icx', 'ilv', 'inj', 'iotx', 'ipmb', 'jasmy',
+  'jetton', 'jst', 'kas', 'keanu', 'kiba', 'kibabsc', 'kishu', 'klay', 'klv', 'kmd',
+  'knc', 'lbp', 'leash', 'lgcy', 'link', 'lnq', 'lsk', 'ltc', 'luna', 'lunc', 'mana',
+  'marsh', 'matic', 'maticmainnet', 'maticusdce', 'mco', 'mew', 'miota', 'mx', 'myro',
+  'near', 'neiroerc20', 'neo', 'never', 'nfai', 'nftb', 'not', 'now', 'npxs', 'ntvrk',
+  'nwc', 'ocean', 'okb', 'om', 'omg', 'one', 'onigierc20', 'ont', 'peipei', 'peng',
+  'pew', 'pikaeth', 'pit', 'pivx', 'pls', 'plx', 'ponke', 'poodl', 'poolx', 'poolz',
+  'pyusd', 'qtum', 'quackbsc', 'raca', 'raincoin', 'rbif', 'rep', 'rjvbsc', 'rjverc20',
+  'rune', 'rvn', 'rxcg', 'sand', 'scrat', 'scrt', 'sei', 'sfundbsc', 'shib', 'shibbsc',
+  'sidus', 'snsy', 'sol', 'soon', 'id', 'spi', 'srk', 'stkk', 'stpt', 'strax', 'strk',
+  'sun', 'sundog', 'super', 'sxp', 'sysevm', 'tenshi', 'tet', 'tfuel', 'theta', 'tko',
+  'tlos', 'tomoerc20', 'ton', 'trvl', 'trx', 'ttcbsc', 'tup', 'tusd', 'tusdtrc20',
+  'uni', 'usdc', 'usdcmatic', 'usdcsol', 'usddtrc20', 'usde', 'usdj', 'usdp', 'usdt',
+  'usdtbsc', 'usdterc20', 'usdtmatic', 'usdtsol', 'usdttrc20', 'ust', 'velo', 'verse',
+  'vet', 'vib', 'volt', 'vpsai', 'wabi', 'waves', 'wbtcmatic', 'win', 'wolf', 'x',
+  'xaut', 'xcaderc20', 'xcur', 'xdc', 'xec', 'xem', 'xlm', 'xmr', 'xno', 'xrp', 'xtz',
+  'xvg', 'xym', 'xyoerc20', 'xzc', 'yfi', 'zbcsol', 'zec', 'zen', 'zent', 'zil', 'zk',
+  'zroarb', 'zroerc',
 ];
 
-const COMMODITIES = ['xauusd','usdsilver','platinum','spot'];
+const COMMODITIES = ['xauusd', 'usdsilver', 'platinum', 'spot'];
 
 const STOCKS = [
-  'aapl','abbv','abnb','adbe','amat','amd','amgn','amzn','asml','axp','ba',
-  'baba','bac','blk','brkb','c','cat','coin','cost','crm','csco','cvx','de',
-  'ge','gme','googl','gs','hd','hon','hsbc','intc','jnj','jpm','ko','lmt',
-  'lyft','ma','mcd','meta','mmm','mrk','ms','msft','mu','nflx','nke','nvda',
-  'nvo','orcl','panw','pep','pfe','pg','pypl','qcom','rblx','rivn','sap',
-  'sbux','shop','snap','sony','tm','tsla','tsm','twtr','uber','unh','v','vz',
-  'wfc','wmt',
+  'aapl', 'abbv', 'abnb', 'adbe', 'amat', 'amd', 'amgn', 'amzn', 'asml', 'axp', 'ba',
+  'baba', 'bac', 'blk', 'brkb', 'c', 'cat', 'coin', 'cost', 'crm', 'csco', 'cvx', 'de',
+  'ge', 'gme', 'googl', 'gs', 'hd', 'hon', 'hsbc', 'intc', 'jnj', 'jpm', 'ko', 'lmt',
+  'lyft', 'ma', 'mcd', 'meta', 'mmm', 'mrk', 'ms', 'msft', 'mu', 'nflx', 'nke', 'nvda',
+  'nvo', 'orcl', 'panw', 'pep', 'pfe', 'pg', 'pypl', 'qcom', 'rblx', 'rivn', 'sap',
+  'sbux', 'shop', 'snap', 'sony', 'tm', 'tsla', 'tsm', 'twtr', 'uber', 'unh', 'v', 'vz',
+  'wfc', 'wmt',
 ];
 
 const ALL_ICONS = [
@@ -70,12 +70,12 @@ const ALL_ICONS = [
 ];
 
 const CATEGORIES = [
-  { id: 'all',         label: 'All',            count: ALL_ICONS.length },
-  { id: 'forex',       label: 'Forex',           count: FOREX.length },
-  { id: 'coins',       label: 'Crypto Coins',    count: COINS.length },
-  { id: 'crypto',      label: 'Crypto (Legacy)', count: CRYPTO_LEGACY.length },
-  { id: 'commodities', label: 'Commodities',     count: COMMODITIES.length },
-  { id: 'stocks',      label: 'Stocks',          count: STOCKS.length },
+  { id: 'all', label: 'All', count: ALL_ICONS.length },
+  { id: 'forex', label: 'Forex', count: FOREX.length },
+  { id: 'coins', label: 'Crypto Coins', count: COINS.length },
+  { id: 'crypto', label: 'Crypto (Legacy)', count: CRYPTO_LEGACY.length },
+  { id: 'commodities', label: 'Commodities', count: COMMODITIES.length },
+  { id: 'stocks', label: 'Stocks', count: STOCKS.length },
 ];
 
 // ── Tooltip / copy state ──────────────────────────────────────────────────────

@@ -6,13 +6,21 @@
   "types": "dist/index.d.ts",
   "author": "Divine Zvenyika",
   "module": "dist/index.esm.js",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "description": "A package to show flag icons for currency pairs",
   "files": [
     "dist",
     "!dist/*.map"
   ],
   "scripts": {
-    "build": "tsc --emitDeclarationOnly --noEmit false && rollup -c",
+    "build": "tsc --emitDeclarationOnly --noEmit false && rspack build -c rspack.config.js && rollup -c",
     "build-storybook": "storybook build",
     "storybook": "storybook dev -p 6006"
   },
@@ -40,6 +48,8 @@
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@rollup/plugin-terser": "^1.0.0",
     "@rollup/plugin-typescript": "^8.5.0",
+    "@rspack/cli": "^1.7.11",
+    "@rspack/core": "^1.7.11",
     "@storybook/addon-actions": "^8.5.1",
     "@storybook/addon-essentials": "^8.5.1",
     "@storybook/addon-interactions": "^8.5.1",
@@ -59,11 +69,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^2.79.1",
-    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-dts": "^4.2.3",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^8.5.1",
     "typescript": "^4.8.4"
   },
