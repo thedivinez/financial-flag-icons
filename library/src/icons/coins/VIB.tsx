@@ -1,0 +1,8 @@
+import React from 'react';
+import { IconProps } from '../types/types';
+
+const VIB: React.FC<IconProps> = (props) => (
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" role="img" {...props}><path fill="#ff1f43" d="M0 0h380v380H0z"/><path fill="#fff" d="M71.25 57.95h58.74l100.7 184.62V57.95h50.35v260.14h-67.13L71.25 57.95z"/></svg>
+);
+
+export default VIB;

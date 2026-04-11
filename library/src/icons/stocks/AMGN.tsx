@@ -1,0 +1,8 @@
+﻿import React from 'react';
+import { IconProps } from '../types/types';
+
+const AMGN: React.FC<IconProps> = (props) => (
+    <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" role="img" {...props}><path fill="#2162A5" d="M0 0h18v18H0z"/><path d="M4.075 12.78L4 13h2.7l.712-1.8H10.3V13H13V4.003L12.55 4C9.172 4 7.186 5.94 5.863 8.464c-.522.991-.998 2.025-1.356 3.07l-.432 1.245zM10.3 9.4H8.05c.45-1.35 1.145-2.333 2.25-2.776V9.4z" fill="#fff"/></svg>
+);
+
+export default AMGN;

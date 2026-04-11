@@ -1,0 +1,8 @@
+import React from 'react';
+import { IconProps } from '../types/types';
+
+const NOW: React.FC<IconProps> = (props) => (
+    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" role="img" {...props}><g clipPath="url(#a)"><path d="M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10Z" fill="#202029"/><path fillRule="evenodd" clipRule="evenodd" d="M10 19.219A9.219 9.219 0 1 0 10 .78a9.219 9.219 0 0 0 0 18.438ZM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10Z" fill="url(#b)"/><path d="M3.224 12.102h1.09v-2.036h.022l1.53 2.036h.885V8.236h-1.09v2.004h-.022L4.121 8.236h-.897v3.866Z" fill="#00C26F"/><path fillRule="evenodd" clipRule="evenodd" d="M11.35 10.17c0-1.235-.766-2.001-1.982-2.001-1.215 0-1.981.766-1.981 2.001 0 1.235.763 1.999 1.981 1.999 1.216 0 1.982-.764 1.982-1.999Zm-2.786 0c0-.67.322-1.096.804-1.096.483 0 .804.426.804 1.096 0 .667-.318 1.093-.804 1.093-.485 0-.804-.426-.804-1.093Z" fill="#00C26F"/><path d="m13.926 12.102.586-2.213h.022l.586 2.213h1.09l1.014-3.866H16.03l-.452 2.443h-.022l-.586-2.443h-.894l-.586 2.443h-.022l-.452-2.443h-1.194l1.014 3.866h1.09Z" fill="#00C26F"/></g><defs><linearGradient id="b" x1="9.999" y1="-.519" x2="9.999" y2="20.516" gradientUnits="userSpaceOnUse"><stop stopColor="#FB9600"/><stop offset=".25" stopColor="#00C26F"/><stop offset=".505" stopColor="#6696D6"/><stop offset=".776" stopColor="#F28984"/><stop offset="1" stopColor="#5FCEF0"/><stop offset="1" stopColor="#5FCEF0"/></linearGradient><clipPath id="a"><path fill="#fff" d="M0 0h20v20H0z"/></clipPath></defs></svg>
+);
+
+export default NOW;

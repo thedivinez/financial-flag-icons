@@ -1,0 +1,8 @@
+import React from 'react';
+import { IconProps } from '../types/types';
+
+const XNO: React.FC<IconProps> = (props) => (
+    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" {...props}><circle cx="540" cy="540" r="540" fill="#209CE9"/><path d="M792.911 881h-52.515L541.099 570.561 338.761 881H286.68l226.772-351.7-206.57-323.078h53.538l181.53 284.171 185.372-284.171h50.233L568.762 528.379 792.911 881Z" fill="#fff"/><path d="M336.487 508.737h408.32v38.379h-408.32v-38.379Zm0 115.135h408.337v38.379H336.47l.017-38.379Z" fill="#fff"/></svg>
+);
+
+export default XNO;

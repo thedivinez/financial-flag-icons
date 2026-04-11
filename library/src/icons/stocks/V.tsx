@@ -1,0 +1,8 @@
+﻿import React from 'react';
+import { IconProps } from '../types/types';
+
+const V: React.FC<IconProps> = (props) => (
+    <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" role="img" {...props}><path fill="#22275E" d="M0 0h18v18H0z"/><path d="M10.921 5l-2.079 5.371L7.976 5.8c-.116-.514-.52-.8-.924-.8H4.058L4 5.229c.693.171 1.214.342 1.676.571.144.072.264.2.337.743L7.514 13H9.65L13 5h-2.079z" fill="url(#paint0_linear)"/><defs><linearGradient id="paint0_linear" x1="8.077" y1="12.938" x2="8.296" y2="5.124"><stop offset="1" stopColor="#fff"/></linearGradient></defs></svg>
+);
+
+export default V;

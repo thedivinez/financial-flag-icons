@@ -1,0 +1,8 @@
+import React from 'react';
+import { IconProps } from '../types/types';
+
+const POOLZ: React.FC<IconProps> = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" role="img" {...props}><path fill="url(#a)" d="M20 0H0v20h20V0Z"/><path fill="url(#b)" d="M20 0H0v20h20V0Z"/><path fill="url(#c)" d="M13.104 3.394H6.868L2.971 8.279 4.36 14.4l5.592 2.725 5.626-2.79 1.357-6.122-3.832-4.82Zm0 1.52 2.59 3.184-3.48.742.89-3.926Zm-1.155-.627L9.953 6.811 7.957 4.287h3.992Zm-1.402 3.184 1.402-1.732-.577 2.738-.825-1.006Zm.132 1.65-1.732.412 1.006-1.237.726.825ZM7.033 4.584l2.36 2.838-1.684 2.26-3.547-1.469 2.871-3.629ZM4.163 9.17l2.853 1.221-2.045 2.623-.809-3.844Zm5.444 6.797-4.092-2.095 2.574-3.25 2.92-.643-1.402 5.988Zm1.072-.214 1.122-5.23 2.656 3.399-3.778 1.831Zm4.29-2.739-2.657-3.316 3.564-.742-.908 4.058Z"/><defs><linearGradient id="a" x1="10" x2="10" y1="20" y2="0" gradientUnits="userSpaceOnUse"><stop stopColor="#62398A"/><stop offset="1" stopColor="#000013"/></linearGradient><linearGradient id="c" x1="2.971" x2="16.936" y1="10.259" y2="10.259" gradientUnits="userSpaceOnUse"><stop stopColor="#0FA3C5"/><stop offset=".294" stopColor="#5789F3"/><stop offset=".313" stopColor="#5A85F3"/><stop offset=".467" stopColor="#6E69F1"/><stop offset=".556" stopColor="#765EF0"/><stop offset="1" stopColor="#F870B0"/></linearGradient><radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="translate(2.335 19.968) scale(13.8152)" gradientUnits="userSpaceOnUse"><stop stopColor="#344891"/><stop offset=".868" stopColor="#2B3C7C" stopOpacity="0"/></radialGradient></defs></svg>
+);
+
+export default POOLZ;

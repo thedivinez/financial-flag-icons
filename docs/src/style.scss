@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    margin: 0;
+    background-color: #020617; /* slate-950 */
+    background-image: linear-gradient(to right bottom, #020617, #040f2b, #040f2b, #020617);
+    min-height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    color: #f8fafc;
+    min-height: 100vh;
+}
+
+/* Hide scrollbar for category tabs */
+.scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,8 @@
+﻿import React from 'react';
+import { IconProps } from '../types/types';
+
+const COIN: React.FC<IconProps> = (props) => (
+    <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" role="img" {...props}><path fill="#0052FF" d="M0 0h18v18H0z"/><path d="M13.92 8h-2.61a2.5 2.5 0 00-4.8 1 2.5 2.5 0 004.8 1h2.61a5.01 5.01 0 110-2z" fill="#fff"/></svg>
+);
+
+export default COIN;

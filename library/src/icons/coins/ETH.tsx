@@ -1,0 +1,8 @@
+import React from 'react';
+import { IconProps } from '../types/types';
+
+const ETH: React.FC<IconProps> = (props) => (
+    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" role="img" {...props}><path d="m10 0 6.079 10.046-6.057-2.589L9.999 0Z" fill="#E68F7B"/><path d="M3.936 10.046 10 0l.023 7.457-6.086 2.59Z" fill="#F8EC7C"/><path d="m10 13.75-6.064-3.704 6.086-2.589-.023 6.293Z" fill="#6EB87D"/><path d="m16.079 10.046-6.057-2.589-.023 6.293 6.08-3.704Z" fill="#946BA7"/><path d="m10 15.025 6.079-3.604-6.08 8.567v-4.963Z" fill="#697CB9"/><path d="m10 15.025-6.064-3.604L10 19.989v-4.963Z" fill="#4FADD0"/></svg>
+);
+
+export default ETH;

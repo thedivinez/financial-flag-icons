@@ -1,0 +1,8 @@
+import React from 'react';
+import { IconProps } from '../types/types';
+
+const XMR: React.FC<IconProps> = (props) => (
+    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" role="img" {...props}><path d="M27.5.187C12.42.187.198 12.419.198 27.5c0 3.014.484 5.918 1.386 8.624h8.162v-22.98L27.5 30.9l17.743-17.754v22.979h8.162a27.292 27.292 0 0 0 1.386-8.624C54.802 12.419 42.581.187 27.501.187z" fill="#F60"/><path d="m23.42 34.98-7.745-7.744V41.69H4.17c4.795 7.865 13.452 13.112 23.33 13.112s18.535-5.247 23.331-13.112H39.325V27.236l-7.744 7.744-4.08 4.081-4.082-4.08z" fill="#4C4C4C"/></svg>
+);
+
+export default XMR;

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+docs/node_modules/
+library/node_modules/
+
+# Build outputs
+library/dist/
+docs/build/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Temp scripts
+generate-crypto-icons.js
+fix-alt-coins.js
+fix-tsx-errors.js
+gen-index.js
+inject-index.js
+coins-imports.txt
+coins-entries.txt

@@ -1,0 +1,8 @@
+import React from 'react';
+import { IconProps } from '../types/types';
+
+const FTT: React.FC<IconProps> = (props) => (
+    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" role="img" {...props}><g clipPath="url(#a)"><path d="M5.686 1.274c4.781-.002 9.563-.002 14.345 0v4.652c-4.782.002-9.563.002-14.345 0-.002-1.55-.002-3.102 0-4.652Z" fill="#02A6C2"/><path d="M.038 7.676c1.543-.008 3.085-.008 4.629 0 .008 1.549.008 3.097 0 4.646-1.544.007-3.086.008-4.629 0a449.608 449.608 0 0 1 0-4.646ZM5.69 7.676c3.45-.007 6.902-.007 10.352 0 .007 1.549.007 3.097 0 4.646-3.45.007-6.902.007-10.352 0a499.467 499.467 0 0 1 0-4.646Z" fill="#5FCADE"/><path d="M5.694 14.08c1.54-.016 3.08-.016 4.619 0 .016 1.545.016 3.09 0 4.636-1.54.015-3.08.015-4.618 0-.016-1.545-.017-3.09-.001-4.636Z" fill="#ABEBF4"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h20v20H0z"/></clipPath></defs></svg>
+);
+
+export default FTT;
