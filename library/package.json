@@ -1,7 +1,7 @@
 {
   "name": "financial-flag-icons",
   "license": "MIT",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Divine Zvenyika",
@@ -26,7 +26,7 @@
     "!dist/*.map"
   ],
   "scripts": {
-    "build": "tsc --emitDeclarationOnly --noEmit false && tsc -p tsconfig.modules.json && rspack build -c rspack.config.js && rollup -c",
+    "build": "tsc --emitDeclarationOnly --noEmit false && tsc -p tsconfig.modules.json && node scripts/minify-modules.mjs && rspack build -c rspack.config.js && rollup -c",
     "build-storybook": "storybook build",
     "storybook": "storybook dev -p 6006"
   },
@@ -69,6 +69,7 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "babel-loader": "^8.2.5",
+    "esbuild": "^0.25.3",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.17",
     "prettier": "^2.7.1",
