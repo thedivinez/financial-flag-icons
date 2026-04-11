@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/financial-flag-icon/static/css/main.68439e6c.css",
+    "main.js": "/financial-flag-icon/static/js/main.501d1ad8.js",
+    "index.html": "/financial-flag-icon/index.html",
+    "main.68439e6c.css.map": "/financial-flag-icon/static/css/main.68439e6c.css.map",
+    "main.501d1ad8.js.map": "/financial-flag-icon/static/js/main.501d1ad8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68439e6c.css",
+    "static/js/main.501d1ad8.js"
+  ]
+}
