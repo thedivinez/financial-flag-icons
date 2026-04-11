@@ -1,7 +1,7 @@
 {
   "name": "financial-flag-icons",
   "license": "MIT",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Divine Zvenyika",
@@ -12,15 +12,21 @@
       "import": "./dist/index.esm.js",
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
+    },
+    "./icons/*": {
+      "import": "./dist/modules/icons/*.js",
+      "require": "./dist/modules/icons/*.js",
+      "types": "./dist/types/icons/*.d.ts"
     }
   },
   "description": "A package to show flag icons for currency pairs",
   "files": [
     "dist",
+    "dist/modules",
     "!dist/*.map"
   ],
   "scripts": {
-    "build": "tsc --emitDeclarationOnly --noEmit false && rspack build -c rspack.config.js && rollup -c",
+    "build": "tsc --emitDeclarationOnly --noEmit false && tsc -p tsconfig.modules.json && rspack build -c rspack.config.js && rollup -c",
     "build-storybook": "storybook build",
     "storybook": "storybook dev -p 6006"
   },
@@ -77,5 +83,8 @@
   "peerDependencies": {
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
   }
 }

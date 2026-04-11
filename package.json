@@ -1,7 +1,7 @@
 {
   "name": "financial-flag-icons",
   "license": "MIT",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Divine Zvenyika",
@@ -72,6 +72,6 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "financial-flag-icons": "^1.0.1"
+    "financial-flag-icons": "^1.0.3"
   }
 }

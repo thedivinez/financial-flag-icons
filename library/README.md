@@ -14,7 +14,7 @@ A lightweight React library with **418+ icons** across 5 categories:
 | **Commodities**           | 4     | Gold, Silver, Platinum, Spot |
 | **Stocks**                | 69    | AAPL, TSLA, NVDA, MSFT…      |
 
-📖 **[Live Search & Preview →](https://thedivinez.github.io/financial-flag-icon)**
+📖 **[Live Search & Preview →](https://thedivinez.github.io/financial-flag-icons)**
 
 ---
 
@@ -43,6 +43,22 @@ import FinancialFlagIcon from "financial-flag-icons";
 // Commodity
 <FinancialFlagIcon icon="xauusd" className="h-10 w-10" />
 ```
+
+## Bundle Size Optimization
+
+For the smallest consumer bundle, import icons directly from subpaths instead of importing the full registry:
+
+```tsx
+import BTC from "financial-flag-icons/icons/coins/BTC";
+import EURUSD from "financial-flag-icons/icons/forex/EURUSD";
+import AAPL from "financial-flag-icons/icons/stocks/AAPL";
+
+<BTC className="h-8 w-8" />
+<EURUSD className="h-8 w-8" />
+<AAPL className="h-8 w-8" />
+```
+
+When you import from `financial-flag-icons/icons/...`, your bundler only includes the icons you use.
 
 ### Props
 

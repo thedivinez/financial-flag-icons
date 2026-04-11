@@ -31,6 +31,7 @@ module.exports = [
         },
         resolve: { extensions: ['.tsx', '.ts', '.js'] },
         optimization: { minimize: true },
+        performance: { hints: false },
     },
 
     // ── ESM bundle (tree-shakeable) ───────────────────────────────────────────
@@ -61,5 +62,6 @@ module.exports = [
         },
         resolve: { extensions: ['.tsx', '.ts', '.js'] },
         optimization: { minimize: true },
+        performance: { hints: false },
     },
 ];
