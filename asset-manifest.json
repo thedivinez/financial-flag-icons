@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/financial-flag-icon/static/css/main.68439e6c.css",
-    "main.js": "/financial-flag-icon/static/js/main.501d1ad8.js",
-    "index.html": "/financial-flag-icon/index.html",
-    "main.68439e6c.css.map": "/financial-flag-icon/static/css/main.68439e6c.css.map",
-    "main.501d1ad8.js.map": "/financial-flag-icon/static/js/main.501d1ad8.js.map"
+    "main.css": "/financial-flag-icons/static/css/main.68439e6c.css",
+    "main.js": "/financial-flag-icons/static/js/main.4206259c.js",
+    "index.html": "/financial-flag-icons/index.html",
+    "main.68439e6c.css.map": "/financial-flag-icons/static/css/main.68439e6c.css.map",
+    "main.4206259c.js.map": "/financial-flag-icons/static/js/main.4206259c.js.map"
   },
   "entrypoints": [
     "static/css/main.68439e6c.css",
-    "static/js/main.501d1ad8.js"
+    "static/js/main.4206259c.js"
   ]
 }
